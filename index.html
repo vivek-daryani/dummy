@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' type='text/css' href='./dist/pythonEditor.min.css'>
+</head>
+
+<body>
+<div class='python_editor'></div>
+</body>
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<script src='./dist/pythonEditor.min.js' type='text/javascript'></script>
+<script type='text/javascript' >
+    (function(){
+        $('.python_editor').pythonEditor({
+            pythonSnippet : "age = input('Your age = ')\nprint(age)"
+        });
+    })();
+</script>
+
+</html>
